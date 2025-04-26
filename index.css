@@ -1,0 +1,330 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.initial{
+    height: 60px;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.container1{
+    padding-top:0px;
+}
+li.contents{
+    width: 140px;
+    font-size: 20px;
+    padding-left: 67px;
+
+}
+.navitems{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+
+}
+.navitems li{
+    list-style: none;
+}
+li .contents{
+    width: fit-content;
+}
+.navitems li a{
+    width: 50px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.teaching-logo{
+    height:60%;
+    width:70%;
+}
+.post-jobs{
+        padding: 10px;
+        border-radius: 25px;
+        width: 120px;
+        font-size: 16px;
+        color: aliceblue;
+        font-weight: bolder;
+        background-color: rgb(81, 58, 212);
+        border: 2px solid white;
+}
+.postJobs{
+    padding-right: 20px;
+}
+.contents{
+    width: 110px;
+    font-size: 16px;
+
+
+}
+
+li a:hover{
+    text-decoration: none;
+    color: black;
+}
+.bi-list{
+    color: black;
+    font-size: 30px;
+}
+nav{
+    height: 50px;
+    background-color: white;
+    position:sticky;
+    z-index: 1000;
+    top: 0%;
+}
+.teachingJob{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.container1{
+    background-image: url(./back.jpg);
+    background-size:unset;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.bi-search{
+    position: absolute;
+    right:77%;
+    font-size:30px;
+    top: 250px;
+    opacity: 50%;
+}
+.bi-geo-alt-fill{
+    position: absolute;
+    right:50%;
+    font-size:20px;
+    top: 250px;
+    opacity: 50%;
+}
+.bi-chevron-down{
+    position: absolute;
+    right:35%;
+    font-size:20px;
+    top: 250px;
+    opacity: 50%;
+}
+.next{
+    color: red;
+}
+.searchData{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+.jobTitle{
+    font-size:20px;
+    border-radius: 20px;
+    width: 350px;
+    padding: 5px;
+    border: 0.5px solid black;
+    text-align:center;
+}
+.jobState{
+    font-size:20px;
+    border-radius: 20px;
+    width:350px;
+    padding: 5px;
+    border: 0.5px solid black;
+    text-align:center;
+}
+.searchBtn{
+    padding: 10px;
+    border-radius: 25px;
+    width: 150px;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: bolder;
+    background-color: rgb(37, 233, 37);
+    border: 2px solid white;
+}
+.bi-search{
+    font-size: 20px;
+}
+.popular{
+    padding-top: 0px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.popularSearches ul{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+}
+.recent{
+    text-align: center;
+    opacity: 40%;
+}
+.viewAll{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    opacity: 80%;
+    gap: 640px;
+    font-size: 24px;
+}
+.view:hover{
+    color: yellowgreen;
+}
+
+.subjects{
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 0.1px solid rgb(176, 173, 173);
+    background-color:rgb(217, 220, 224);
+}
+.subjects:hover{
+    background-color:rgb(20, 8, 126);
+    color: white;
+}
+.logoInstitute{
+ width:100px;
+ height:50px;
+
+}
+.logos{
+    width:220px;
+    height:100px;
+    border: 1px solid rgb(213, 207, 207);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+   }
+.container3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+
+}
+.biology{
+    padding-top: 30px;
+}
+.bio{
+    text-align: left;
+}
+.biology1 a{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.biology1 a:hover{
+    color: rgb(190, 190, 12);
+}
+.institute1{
+    height: 60px;
+    width: 100px;
+}
+.institute1{
+    height: 50px;
+}
+.career{
+    margin-top: 40px;
+    padding-top: 140px;
+}
+.viewall{
+    padding-top: 30px;
+    display: flex;
+    justify-content:center;
+    font-size: x-large;
+    opacity: 80%;
+    gap: 850px;
+    font-size: 18px;
+}
+.card1{
+    height: 500px;
+    width: 400px;
+    padding-top: 20px;
+}
+.professor{
+    height: 300px;
+    width: 400px;
+}
+.teachers{
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+}
+.lecturer{
+    height: 300px;
+    width: 400px;
+}
+.teach{
+    height: 300px;
+    width: 400px;
+}
+.des a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.des a:hover{
+    color: yellowgreen;
+}
+.des{
+    padding-top: 15px;
+}
+.think{
+    padding-top: 8px;
+}
+.viewall{
+    border-top: 1px solid black;
+}
+.information{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(54, 49, 49);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    gap: 50px;
+}
+.division ul li{
+    padding-top: 10px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 15px;
+}
+.division ul li a{
+    color: rgb(226, 222, 222);
+}
+.division ul li a:hover{
+    color:white;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+}
+.copyright{
+    display: flex;
+    gap: 10px;
+}
+.footer{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+    background-color:#212529;
+    color:gray;
+    align-items: center;
+    height: 100px;
+}
