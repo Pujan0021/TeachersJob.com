@@ -16,16 +16,29 @@ nav{
 .container1{
     padding-top:0px;
 }
+li.contents a{
+    width: 200px;
+    font-family: sans-serif;
+    line-height: 24px;
+
+
+}
+li.contents a:hover{
+text-decoration: underline;
+}
+.menu{
+    padding-left: 20px;
+}
 li.contents{
     width: 140px;
     font-size: 20px;
-    padding-left: 67px;
 
 }
 .navitems{
     display: flex;
+    justify-content:space-evenly;
     align-items: center;
-    gap: 4%;
+    gap:0px;
 
 }
 .navitems li{
